@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Fake Store API Demo</title>
+    <link rel="stylesheet" href="styles.css"> 
+ </head>
+
+ <body>
+    <header>
+        <h1>Fake Store API Demo</h1>
+   </header>
+    <main id="product-list">
+    </main>
+     <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+     <script src="app.js"></script>
+
+     <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAYKYdRFs3lesJ5uqKuwlpQxGMu99Jbd5o",
+          authDomain: "mazad-33104.firebaseapp.com",
+          databaseURL: "https://mazad-33104-default-rtdb.europe-west1.firebasedatabase.app",
+          projectId: "mazad-33104",
+          storageBucket: "mazad-33104.appspot.com",
+          messagingSenderId: "406512830531",
+          appId: "1:406512830531:web:e96ffb02ad79ab99086cf6",
+          measurementId: "G-QDMLXPF8HD"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+ </body>
+
+ </html> 
+
+
+
